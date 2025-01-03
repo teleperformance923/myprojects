@@ -43,7 +43,7 @@
                 <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
                 <a href="#"><i class="fa-brands fa-twitter"></i></a>
                 <a href="#"><i class="fa-brands fa-skype"></i></a>
-                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/in/duncar-wallas-rosario-santos-37a81a255?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3Bbe1Vt2AWQ3SC%2FGr1zuIE7g%3D%3D"><i class="fa-brands fa-linkedin-in"></i></a>
                 <a href="#"><i class="fa-solid fa-rss"></i></a>
             </div>
         </div>
@@ -53,9 +53,10 @@
     <section id="sobremi" class="sobremi">
         <div class="contenido-seccion">
             <h2>About Me</h2>
-            <p><span>Hellow, I'm Duncar</span> Well, I am someone who is willing to pay the price of the success. I'm so disciplined about my goals,
-            I think I am so single-minded, it's like if my brain is focused on something I will get it done somehow or others. I am someone that is hungry
-        to be better and learn more in this life. last but not least my favorite value is resilience</p>
+            <p><span>Hellow, I'm Duncar</span> I am a disciplined and goal-oriented individual with experience as a junior developer and a relentless drive for self-improvement. My journey began in the Dominican Republic, where I gained valuable experience in a junior developer role. Since then, I have been actively building personal projects, freelancing, and advancing my skills to transition into a full-time web development career.</p><br>
+                
+
+         Currently, I work as a Class A truck driver at Swift, where my punctuality and dedication have earned me monthly awards. In my free time, I invest in my education and development to make my transition into web development a reality. Resilience and focus are my guiding principles, and I am eager to bring my determination and hunger for growth to the tech industry.</p>
 
             <div class="fila">
                 <!-- datos personales -->
@@ -76,7 +77,7 @@
                         </li>
                         <li>
                             <strong>Website</strong>
-                            https://teleperformance923.github.io/math-games.com/
+                            https://teleperformance923.github.io/ECOMMERCE-WEBSITE/
                         </li>
                         <li>
                             <strong>Address</strong>
@@ -241,11 +242,10 @@
                 <div class="col izquierda">
                     <h3>Education</h3>
                     <div class="item izq">
-                        <h4>Fedex Express</h4>
-                        <span class="casa">Call Centers</span>
-                        <span class="fecha">2019- 2020</span>
-                        <p>I worked in fedex customer service helping customers to find their packages and during the time
-                            I worked there I became one of the best of the team.
+                        <h4>Swift Transportation</h4>
+                        <span class="casa">CDL Driver</span>
+                        <span class="fecha">2024- 2025 present</span>
+                        <p>I am currently working as a Profesional Truck Driver Class A for Swift Transportation
                         </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
@@ -255,9 +255,7 @@
                         <h4>Software Developer</h4>
                         <span class="casa">Institute of Las Americas ITLA</span>
                         <span class="fecha">2019 - 2022</span>
-                        <p>I was studying development in Dominican Republic but I stopped it because I moved to here United States
-                            and I got married, but I never stopped learning and making projects. I went for web designs because that's what 
-                            I love in this career.
+                        <p>I am currently pursuing my undergraduate degree and actively seeking an internship opportunity to fulfill my graduation requirements for 2025. I am eager to apply my skills and gain hands-on experience in a professional setting
                         </p>
                         <div class="conectori">
                             <div class="circuloi"></div>
@@ -291,8 +289,8 @@
                         <h4>Cars Mechanic</h4>
                         <span class="casa">MRM</span>
                         <span class="fecha">2019-2020</span>
-                        <p>I was dealing with cars changing motors and others engine parts. I learned how to program keys and transmission and so on.
-                            l learned a lot of cars and sales about them.
+                        <p>
+                            I have hands-on experience in automotive work, including changing motors, engine parts, and programming keys and transmissions. This role allowed me to develop a deep understanding of vehicle mechanics and functionality. Additionally, I gained valuable knowledge in car sales, honing my technical and customer-oriented skills in the automotive industry.
                         </p>
                         <div class="conectord">
                             <div class="circulod"></div>
@@ -304,6 +302,16 @@
                         <span class="fecha"> 2022 - 2022 </span>
                         <p>This experience does not help much but it shaped and gave me strenght to achieve the things that i want,
                             I learned about menus and how to treat a customer so they can come back.
+                        </p>
+                        <div class="conectord">
+                            <div class="circulod"></div>
+                        </div>
+                    </div>
+                    <div class="item der">
+                        <h4>Technical Support Advisor</h4>
+                        <span class="casa">Concentrix</span>
+                        <span class="fecha"> 2023 - 2024 </span>
+                        <p>I was a technical support advisor dedicated to apple's devices troubleshoot over the phone.
                         </p>
                         <div class="conectord">
                             <div class="circulod"></div>
@@ -381,15 +389,17 @@
             <div class="fila">
                 <!-- Formulario -->
                 <div class="col">
-                    <input type="text" placeholder="Tú Nombre">
-                    <input type="text" placeholder="Número telefónico">
-                    <input type="text" placeholder="Dirección de correo">
-                    <input type="text" placeholder="Tema">
-                    <textarea name="" id="" cols="30" rows="10" placeholder="Mensaje"></textarea>
-                    <button>
+                    <form action="contact.php" method="POST">
+                    <input type="text" name="name" placeholder="Tú Nombre" required>
+                    <input type="text" name="phone" placeholder="Número telefónico">
+                    <input type="email" name="email" placeholder="Dirección de correo" required>
+                    <input type="text" name="subject" placeholder="Tema">
+                    <textarea name="message" id="" cols="30" rows="10" placeholder="Mensaje" required></textarea>
+                    <button type="submit">
                         Send message<i class="fa-solid fa-paper-plane"></i>
                         <span class="overlay"></span>
                     </button>
+                    </form>
                 </div>
                 <!-- Mapa -->
                 <div class="col">
@@ -411,6 +421,26 @@
                         </ul>
                     </div>
                 </div>
+            </div>
+        </div>
+    </section>
+    <section id="testimonials">
+        <h2>What My Clients Say</h2>
+        <div class="testimonial-container">
+            <div class="testimonial">
+                <p>"This service changed my life! Highly recommended."</p>
+                <h4>John Doe</h4>
+                <p>CEO, Company</p>
+            </div>
+            <div class="testimonial">
+                <p>"A fantastic experience. Will definitely come back!"</p>
+                <h4>Jane Smith</h4>
+                <p>Marketing Manager</p>
+            </div>
+            <div class="testimonial">
+                <p>"Excellent support and amazing service!"</p>
+                <h4>Robert Brown</h4>
+                <p>Founder, Startup</p>
             </div>
         </div>
     </section>
